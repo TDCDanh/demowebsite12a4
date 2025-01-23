@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2DM website TỨ TRỤ 12A4</title>
+    <style>
+        /* Định dạng chung */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d023a; /* Màu xanh đậm */
+            margin: 0;
+            padding: 0;
+        }
+
+        .button{
+            background-color: #583eb9; 
+            border: 1px solid #1d0347; 
+            padding: 8px 16px;
+            margin-left: 20px; 
+            text-decoration: none; 
+            color: white; 
+            font-size: 15px;
+            font-weight: bold;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 50px;    
+        }
+
+        /* Hiệu ứng khi chuột hover vào nút */
+        .button:hover {
+            background-color: #1d0347; /* Thay đổi màu nền khi hover */
+            border-color: #583eb9; /* Thay đổi màu viền khi hover */    
+        }
+
+        .nav-buttons p {
+            text-align: center;
+            padding-left: 20px;
+            font-size: 18px;
+        }
+
+
+        /* Định dạng phần đầu trang */
+        .header {
+            background-color: #0d023a; /* Màu xanh đậm */
+            padding: 10px 0;
+            text-align: center;
+        }   
+
+
+        .banner {
+            background: url("https://i.imgur.com/n3CLs0F.jpeg") no-repeat center center;
+            background-color: #0d023a; /* Màu xanh */
+            /* weight: 400px; */
+            height: 250px;
+            margin: 5400;
+            padding: 100px;
+            font-size: 200px;
+            font-family: fantasy;
+            font-style: italic; 
+            color: #2323aa62;
+        }
+
+        .slogan {
+            background-color: #2323aa62; /* Màu xanh sáng */
+            padding: 15px;
+            font-size: 30px;
+            font-style: italic;
+            font-family: fantasy;
+            color: #d8cbec;
+        }
+
+        /* Định dạng phần nội dung chính */
+        .main-content {
+            background-color: #0d023a; /* Màu cam */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 100px;
+            text-align: center;
+        }
+
+        .box {
+            background-color: #4b82d4; /* Màu vàng nhạt */
+            border: 2px solid #fdfdfd; /* Màu cam đậm */
+            padding: 30px;
+            font-size: 25px;
+            font-style: italic;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+            border-radius: 50px;
+        }
+
+        /* Định dạng phần cuối trang */
+        .footer {
+            background-color: #0a0120; /* Màu đỏ */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Phần đầu trang -->
+    <div class="header">
+
+        <p style="color:#a3a3f5;  
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+            animation: moveText 10s linear infinite;"> 
+            Chào mừng đến với website của B2DM!! Wellcome to B2DM website!! 
+        </p>
+
+        <style>
+        @keyframes moveText 
+        {
+            0% { transform: translateX(-100%); /* Bắt đầu từ ngoài biên trái */ }
+            100% { transform: translateX(100%); /* Kết thúc ngoài biên phải */ }
+        }
+        </style>
+
+        <hr>
+
+        <div class="nav-buttons">
+            <p>
+                <!-- Thêm các link điều hướng -->
+                <a href="index.html" class="button">Trang chủ</a>
+                <a href="gioithieu.html" class = "button"> Giới thiệu </a>
+                <a href="chatbox.html" class="button">Chat box</a>
+                <a href="heart.html" class="button">🙂</a>
+            </p>
+        </div>
+
+        <br>
+        
+
+        <div class="banner"> B2DM </div>
+
+        <div class="slogan"> 
+        <p>
+            Four as one, we rise and run, working hard till the job is done. 
+            <br>
+            <p style = "font-style: italic; font: 100; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> 
+                "Bốn người như một, cùng đứng dậy chạy nhanh, chăm chỉ làm việc đến ngày hoàn thành." 
+            </p>
+        </p>
+        </div>
+        <br>
+        <audio controls>
+        <source src="Đừng Làm Trái Tim Anh Đau - Sơn Tùng MTP _ Lyrics Video _.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <!-- Phần nội dung chính -->
+    <p style = "text-align: center; 
+                color:#d8cbec; 
+                font-size: 25px; 
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: italic;"> 
+                Thành viên nhóm B2DM 
+    </p>
+    <div class="main-content">
+        
+        <div class="box"> 
+            <p style = "color:#d7d2ec"> 
+                Nguyễn Hoài Gia Bảo 
+                <br>
+                <img src="bảo.jpg" alt = "Ảnh Bảo" width="500" height="500">
+                <br>
+                abc
+            </p>
+
+        </div>
+
+        <div class="box"> 
+            <p style = "color:#d7d2ec"> 
+                Nguyễn Công Danh
+                <br>
+                <img src="danh nguyễn.jpg" alt = "Ảnh Bảo" width="500" height="400">
+                <br>
+                abc
+            </p>
+
+        </div>
+
+        <div class="box"> 
+            <p style = "color:#d7d2ec"> 
+                Trần Đặng Công Danh
+                <br>
+                <img src="danh trần.jpg" alt = "Ảnh Bảo" width="500" height="500">
+                <br>
+                abc
+            </p>
+
+        </div>
+
+        <div class="box"> 
+            <p style = "color:#d7d2ec"> 
+                Nguyễn Duy Mạnh
+                <br>
+                <img src="duy mạnh.jpg" alt = "Ảnh Bảo" width="500" height="400">
+                <br>
+                abc
+            </p>
+
+        </div>
+    </div>
+
+    <!-- Phần cuối trang -->
+    <div class="footer"> 
+        <p style = "font-style: italic; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #d7d2ec;">
+            this website's designed by Bao Nguyen, Danh Nguyen, Danh Tran, Manh Nguyen!!!!
+            <br>
+            contact us: danhthoihoa2k7@gmail.com 
+        </p> 
+    </div>
+</body>
+</html>
+
